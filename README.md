@@ -29,7 +29,7 @@ https://github.com/pritomrajkhowa22/oracle_based_swap/blob/main/test_video.mov
     5. Stability Maintenance: The Oracle Swap AMM continuously rebalances the pool to uphold stablecoin pegs. Arbitrageurs are motivated to rectify deviations from the peg by capitalizing on price differences across various exchanges. 
 
 
-# Advantages of Oracle Swap AMMsAfter gaining a comprehensive understanding of how Stable Swap AMMs operate, let's delve into their advantages:
+### Advantages of Oracle Swap AMMsAfter gaining a comprehensive understanding of how Stable Swap AMMs operate, let's delve into their advantages:
 
     1. Minimal Slippage: Oracle Swap AMMs are optimized for stablecoin trading, ensuring minimal slippage even during significant volume fluctuations.
     
@@ -42,7 +42,7 @@ https://github.com/pritomrajkhowa22/oracle_based_swap/blob/main/test_video.mov
 
 These benefits make Stable Swap AMMs an attractive option for traders and liquidity providers in the decentralized finance (DeFi) space.
 
-# Challenges and ConsiderationsAlthough Oracle Swap AMMs offer numerous advantages, it's important to acknowledge the challenges and considerations that accompany them.:
+### Challenges and ConsiderationsAlthough Oracle Swap AMMs offer numerous advantages, it's important to acknowledge the challenges and considerations that accompany them.:
 
     1. Impermanent Loss: Liquidity providers may experience impermanent loss if the relative prices of stablecoins in the pool deviate from the external market.
     

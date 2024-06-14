@@ -15,6 +15,43 @@ Please see the [Pyth documentation](https://docs.pyth.network/documentation/pyth
 
 https://github.com/pritomrajkhowa22/oracle_based_swap/blob/main/test_video.mov
 
+
+##Oracle Swap AMM operates
+
+    1. Initial Pool Setup: When users deposit various stablecoins into a liquidity pool, it is ideal for these stablecoins to maintain a 1:1 value ratio.
+    
+    2. Invariant Function: Instead of utilizing the constant product invariant found in traditional AMMs, Oracle Swap AMMs employ an invariant function specifically tailored to stablecoins. This function is designed to ensure the balanced value of assets within the pool.
+    
+    3. Swap Execution: Upon a user's request to exchange one stablecoin for another, the Oracle Swap AMM calculates the most efficient trade path to minimize slippage. This process involves dynamically adjusting the proportions of stablecoins within the pool.
+    
+    4. Fees and Incentives: Users who provide liquidity to the pool receive a share of the trading fees generated, thereby creating an incentive for liquidity provision.
+    
+    5. Stability Maintenance: The Oracle Swap AMM continuously rebalances the pool to uphold stablecoin pegs. Arbitrageurs are motivated to rectify deviations from the peg by capitalizing on price differences across various exchanges. 
+
+
+#Advantages of Oracle Swap AMMsAfter gaining a comprehensive understanding of how Stable Swap AMMs operate, let's delve into their advantages:
+
+    1. Minimal Slippage: Oracle Swap AMMs are optimized for stablecoin trading, ensuring minimal slippage even during significant volume fluctuations.
+    
+    2. Lower Fees: In comparison to centralized exchanges, Oracle Swap AMMs typically feature reduced trading fees, making them appealing to users.
+    
+    3. Decentralization: Operating on blockchain networks, they eliminate the need for intermediaries, providing users with full control over their assets.
+    
+    4. Liquidity Provision: Users have the opportunity to earn passive income by providing liquidity to Oracle Swap AMMs and receiving a share of the trading fees.
+    
+
+These benefits make Stable Swap AMMs an attractive option for traders and liquidity providers in the decentralized finance (DeFi) space.
+
+#Challenges and ConsiderationsAlthough Oracle Swap AMMs offer numerous advantages, it's important to acknowledge the challenges and considerations that accompany them.:
+
+    1. Impermanent Loss: Liquidity providers may experience impermanent loss if the relative prices of stablecoins in the pool deviate from the external market.
+    
+    2. Algorithm Complexity: Creating an efficient Oracle Swap AMM algorithm can be challenging, as it requires balancing stability with flexibility.
+    
+    3. Regulatory Scrutiny: The DeFi space, including Oracle Swap AMMs, is facing growing regulatory scrutiny in various jurisdictions.
+
+
+
 ## AMM Contract
 
 All of the commands in this section expect to be run from the `contract` directory.

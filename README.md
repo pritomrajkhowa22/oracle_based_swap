@@ -10,6 +10,11 @@ Please see the [Pyth documentation](https://docs.pyth.network/documentation/pyth
 
 **Warning** this AMM is intended only as a demonstration of Pyth price feeds and is **not for production use**.
 
+
+## AMM VIDEO
+
+https://github.com/pritomrajkhowa22/oracle_based_swap/blob/main/test_video.mov
+
 ## AMM Contract
 
 All of the commands in this section expect to be run from the `contract` directory.
